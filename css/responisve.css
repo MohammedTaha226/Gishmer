@@ -1,0 +1,611 @@
+@media (min-width: 1200px)
+{
+	.modal-dialog
+	{
+		width:910px;
+		
+	}
+}
+
+
+
+
+/*Big Size Screens*/
+@media (min-width:991px) and  (max-width: 1200px)
+{
+	.modal-dialog
+	{
+		width:810px;
+	}
+	
+	.login-modal .modal-body
+	{
+		padding-left:60px;
+		padding-right:60px
+	}
+	
+	.header .headerCenter .logo
+	{
+		margin-left:20px;
+		width:230px
+	}
+	
+	.header .headerCenter .shoppingCart .linkLeft
+	{
+		font-size:15px
+	}
+	
+	.header .headerCenter .searchHeader
+	{
+		width:400px;
+		margin-top:18px
+	}
+	
+	
+	.header .headerCenter .shoppingCart
+	{
+		margin-top:32px
+	}
+	
+	.header .headerCenter .shoppingCart .subShop:first-of-type
+	{
+		margin-right:20px
+	}
+	
+	.header .menuBigSize li:not(:last-of-type)
+	{
+		margin-left:20px
+	}
+	
+	.header .menuBigSize li a
+	{
+		font-size:14px
+	}
+	
+	.header .headerCenter .sub
+	{
+		top:calc(100% + 13px)
+	}
+
+	
+	.footer .logoFooter .socialFooter a
+	{
+		width:40px;
+		height:40px;
+		line-height:40px
+	}
+	
+	.productsPage .h .product .details
+	{
+		width:62%
+	}
+	
+	.productDetails .detailsSlider .carousel
+	{
+		width: 72%;
+	}
+	
+
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.header .menuBigSize .links 
+	{
+		display:none
+	}
+
+	.header .headerCenter .searchHeader
+	{
+		width:74%
+	}
+	
+	.header .headerCenter .shoppingCart
+	{
+		padding-bottom:20px
+	}
+	
+	.header .headerCenter .shoppingCart .subShop,
+	.header .headerCenter .shoppingCart .linkLeft
+	{
+		display:inline-block;
+		float:none;
+	}
+	
+	.header .headerCenter .shoppingCart .subShop:first-of-type
+	{
+		margin-right:0;
+		margin-left:20px
+	}
+	
+	.header .headerCenter .sub
+	{
+		left:auto;
+		right:0
+	}
+
+	.slider .slider-details
+	{
+		padding-top:80px;
+	}
+	
+	.slider .slider-details h2
+	{
+		font-size:30px;
+	}
+	
+	.slider img
+	{
+		height:350px;
+	}
+	
+	.slider .bx-wrapper .bx-pager.bx-default-pager
+	{
+		bottom:30px;
+	}
+	
+	.footer .logoFooter
+	{
+		padding-top:0;
+		margin-bottom:25px
+	}
+	
+
+	.specialOrders .item
+	{
+		margin-bottom:30px
+	}
+	
+	.login-modal .modal-body
+	{
+		padding:45px 20px
+	}
+	
+	.login-modal .close
+	{
+		left:20px;
+		top:20px
+	}
+
+	.productDetails .detailsSlider .carousel
+	{
+		width:80%
+	}
+
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	.header .headerCenter .logo
+	{
+		width:200px
+	}
+	
+	.header .headerCenter .searchHeader
+	{
+		width:60%;
+		margin-top:12px
+	}
+	
+	.header .headerCenter .shoppingCart
+	{
+		padding-bottom:15px;
+		width:100%;
+		margin-top:15px;
+		text-align:center
+	}
+	
+	.productsPage .h .product .details
+	{
+		width:62%
+	}
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+
+
+	.header .topBar .LoginSing,
+	.header .topBar .socialHeader
+	{
+		float:none;
+		text-align: center
+	}
+	
+	.header .topBar .socialHeader
+	{
+		margin-top:15px;
+	}
+	
+	.header .topBar .socialHeader li,
+	.header .topBar .LoginSing li
+	{
+		display:inline-block;
+		float:none
+	}
+	
+	.header .headerCenter .logo
+	{
+		margin-left:0;
+		width:auto;
+		float:none;
+		text-align:center;
+		margin-bottom:10px
+		
+	}
+	
+	.header .headerCenter .searchHeader
+	{
+		width:100%;
+		float:none;
+		height:auto;
+	}
+	
+	.header .headerCenter .searchHeader input
+	{
+		height:50px;
+		padding-bottom:5px;
+		font-size:14px;
+		padding-left:15px;
+		text-align:center
+	}
+	
+	.header .headerCenter .searchHeader button
+	{
+		width:100%;
+		position: static;
+		border-radius:30px;
+		margin-top:15px;
+		height:50px;
+		padding-bottom:5px
+	}
+	
+	.header .headerCenter .shoppingCart
+	{
+		float:none;
+	}
+
+	
+	.header .headerCenter .shoppingCart .subShop
+	{
+		margin-bottom:25px
+	}
+	
+	.header .headerCenter .shoppingCart .subShop:first-of-type
+	{
+		margin-left:0
+	}
+	.header .headerCenter .shoppingCart .subShop,
+	.header .headerCenter .shoppingCart .linkLeft
+	{
+		display:block;
+	}
+	
+	
+	.header .headerCenter .sub
+	{
+		width: 100%;
+    	right: 0;
+	    top: calc(100% + 15px);
+	}
+	
+	.header .headerCenter .sub .details
+	{
+		width:65%;
+		padding-right:15px
+	}
+
+	
+	.slider .the-slider-control li span i
+	{
+		opacity:.5;
+	}
+	
+	.slider .the-slider-control li span i:hover
+	{
+		opacity:1
+	}
+	
+	.slider .the-slider-control li span i
+	{
+		height:70px;
+		line-height:70px;
+		width:50px
+	}
+	
+	.products .titleStyle
+	{
+		margin-bottom:100px
+	}
+	
+	.owlProducts 
+	{
+		margin:0
+	}
+	
+	.product .details .title
+	{
+		width:62%
+	}
+	
+
+	.table-responsive-sm thead
+	{
+		display:none
+	}
+	
+	.table-responsive-sm tbody tr
+	{
+		width:100%;
+		border:1px solid #e2e2e2;
+		margin-bottom:20px;
+		display:block
+	}
+	
+	
+	.table-responsive-sm tbody tr td
+	{
+		width:100%;
+		display:block;
+		text-align:center;
+		border-left:none!important;
+		border-bottom:1px solid #e2e2e2
+	}
+	
+	.checkOut .tableCheck table tbody tr td
+	{
+		padding:25px!important;
+	}
+	
+	.checkOut .tableCheck table tbody tr .edit
+	{
+		float:none;
+		margin-right:15px;
+		margin-left:0
+	}
+	
+	.productsPage .h .product .details
+	{
+		width:39%
+	}
+	
+	.productsPage .h .product .details .topDetails
+	{
+		margin-bottom:10px
+	}
+	.productsPage .h .product .details .buyNow
+	{
+		margin-top:20px
+	}
+
+	.productDetails .detailsSlider .carousel
+	{
+	    width: 68%;
+	}
+	
+	.moreProducts .owl-theme .owl-controls .owl-buttons div
+	{
+		right:0
+	}
+	
+	.moreProducts .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	
+
+	.slider .slider-details h2
+	{
+		font-size:20px;
+		line-height:30px
+	}
+	
+	.slider img
+	{
+		height:280px
+	}
+	
+	.slider .the-slider-control li span i
+	{
+		top:calc(50% - 35px);
+		opacity: 0.3
+	}
+	
+	.slider .slider-details
+	{
+		padding-top:55px
+	}
+	
+	.specialOrders .item .itemDetails 
+	{
+		text-align:center
+	}
+	
+	.specialOrders .item .itemDetails .price,
+	.specialOrders .item .itemDetails .oldPrice,
+	.specialOrders .item .itemDetails .fav
+	{
+		float:none;
+		font-size:17px;
+		display:block;
+		margin:0
+	}
+	
+	.specialOrders .item .itemDetails .oldPrice
+	{
+		margin-bottom:15px
+	}
+	
+	.specialOrders .item .itemDetails .fav
+	{
+		display:inline-block;
+		margin:0 10px;
+	}
+	
+	.specialOrders .item .mask .buy
+	{
+		left:20px;
+		width:calc(100% - 40px)
+	}
+	
+	.contactUs .container,
+	.contactInfo .container
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.contactInfo .info
+	{
+		width:100%
+	}
+	
+	.checkTabs .tabs1
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.login-modal .loginModalForm .loginSocial .socialLog li:not(:last-of-type)
+	{
+		margin-right:5px
+	}
+	
+	.login-modal .loginModalForm .loginSocial .socialLog li a
+	{
+		width:75px
+	}
+	
+	.login-modal .titleModal
+	{
+		margin-bottom:40px;
+		font-size:16px
+	}
+	
+	.productsPage .h .product .mask
+	{
+		float:none
+	}
+	
+	.productsPage .h .product .details
+	{
+		float:none;
+		padding-right:0;
+		text-align:center;
+		width:100%
+	}
+	
+	.relative
+	{
+		display:none;
+	}
+
+	.productDetails .detailsSlider .carousel
+	{
+		width:100%;
+		float:none;
+		margin-right:0
+	}
+	
+	.carousel-inner > .item
+	{
+		height:200px;
+		line-height:190px
+	}
+	
+	.productDetails .carousel-inner > .item
+	{
+		height:auto;
+		line-height:normal
+	}
+	
+	.productDetails .details .rateDetails span,
+	.productDetails .details .rateDetails .rate
+	{
+		display:block;
+		float:none
+	}
+	
+	.productDetails .details .rateDetails .rate
+	{
+		margin-right:-5px;
+		text-align:right;
+		margin-top:10px;
+		margin-bottom:10px;
+		display:inline-block
+	}
+	
+	.productDetails .details .rateDetails .num
+	{
+		display:inline-block
+	}
+	
+	.productDetails .details .colors span,
+	.productDetails .details .colors ul
+	{
+		float:none
+	}
+	
+	.productDetails .details .colors ul
+	{
+		margin-top:15px
+	}
+	
+	.productDetails .details .payments p i
+	{
+	    float: right;
+    	margin-top: 7px;
+	}
+	
+	.DetailsTabs .borderDetails .tabsBtns
+	{
+		padding:0 15px
+	}
+	
+	.DetailsTabs .borderDetails .tabsBtns li
+	{
+		float:none;
+		text-align:right;
+		display:block
+	}
+	.DetailsTabs .borderDetails .tabsBtns li:not(:last-of-type):after
+	{
+		display:none;
+	}
+	
+	.DetailsTabs .borderDetails .tabsBtns li:hover:before, 
+	.DetailsTabs .borderDetails .tabsBtns li.active:before
+	{
+		width:100%
+	}
+	
+	.DetailsTabs .borderDetails .tabs
+	{
+		padding-left:25px;
+		padding-right:25px
+	}
+	
+	
+	
+	
+	
+	
+}
